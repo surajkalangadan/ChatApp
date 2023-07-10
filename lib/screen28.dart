@@ -132,7 +132,7 @@ class _screen28State extends State<screen28> {
                             fontFamily: "lal"),
                       )
                   )
-                  ),TabBarView(children: [])
+                  ),TabBarView(children: [dgjkdhgjdthgjjghj])
 
                 ],
               ),
