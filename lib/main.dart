@@ -7,6 +7,7 @@ import 'package:untitled1/screen15.dart';
 import 'package:untitled1/screen23.dart';
 import 'package:untitled1/screen25.dart';
 import 'package:untitled1/screen26.dart';
+import 'package:untitled1/screen29.dart';
 
 import 'bottomnavigation.dart';
 
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:BottomNavigationScreen()
+      home:screen29()
     );
   }
 

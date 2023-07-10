@@ -5,6 +5,7 @@ import 'package:untitled1/screen2.dart';
 import 'package:untitled1/screen23.dart';
 import 'package:untitled1/screen25.dart';
 import 'package:untitled1/screen26.dart';
+import 'package:untitled1/screen29.dart';
 
 import 'bottomnavigation.dart';
 class Screen1 extends StatefulWidget {
@@ -18,7 +19,7 @@ class _Screen1State extends State<Screen1> {
   @override
   void initState() {
     Future.delayed(const  Duration(seconds: 3),(){
-      Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=>BottomNavigationScreen()));
+      Navigator.of(context).push(MaterialPageRoute(builder: (ctx)=>screen29()));
     });
     // TODO: implement initState
     super.initState();
