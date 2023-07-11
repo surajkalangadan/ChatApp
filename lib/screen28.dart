@@ -21,7 +21,7 @@ class _screen28State extends State<screen28> {
         child: Scaffold(
           backgroundColor: Color(0XFF20A090),
           appBar: AppBar(
-            backgroundColor: Colors.red,
+            backgroundColor: Color(0xff20A090),
             toolbarHeight: 120,
             leading: Padding(
               padding: EdgeInsets.only(
