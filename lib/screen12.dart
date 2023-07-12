@@ -47,7 +47,15 @@ List<String> samjad = [
   "asset/call4.png",
   "asset/call4.png"
 ];
-List<String> sreerag =["asset/video.png","asset/video.png","asset/video.png","asset/video.png","asset/video.png","asset/video.png"];
+List<String> sreerag = [
+  "asset/video.png",
+  "asset/video.png",
+  "asset/video.png",
+  "asset/video.png",
+  "asset/video.png",
+  "asset/video.png"
+];
+
 class _Screen12State extends State<Screen12> {
   @override
   Widget build(BuildContext context) {
@@ -188,12 +196,15 @@ class _Screen12State extends State<Screen12> {
                                       child:
                                           ImageIcon(AssetImage(samjad[index])),
                                     ),
-                                  ),SizedBox(width: 15,),
+                                  ),
+                                  SizedBox(
+                                    width: 15,
+                                  ),
                                   Container(
                                     height: 24,
                                     width: 24,
                                     child:
-                                    ImageIcon(AssetImage(sreerag[index])),
+                                        ImageIcon(AssetImage(sreerag[index])),
                                   ),
                                 ],
                               ),
@@ -208,7 +219,8 @@ class _Screen12State extends State<Screen12> {
                       height: 10,
                     );
                   },
-                ))
+                )
+                )
               ],
             ),
           ),
