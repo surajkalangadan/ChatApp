@@ -46,6 +46,32 @@ List<String> i = [
   "boykaa",
   "boykaa",
 ];
+List<String> j = [
+  "01:00. 234k videos",
+  "01:00. 234k videos",
+  "01:00. 234k videos",
+  "01:00. 234k videos",
+  "02:00. 2634k videos",
+  "03:00. 2334k videos",
+  "03:00. 2334k videos",
+  "01:00. 2334k videos",
+  "04:00. 2334k videos",
+  "03:00. 23354k videos",
+  "02:00. 23234k videos"
+];
+List<String> k = [
+  "asset/101.png",
+  "asset/101.png",
+  "asset/101.png",
+  "asset/101.png",
+  "asset/101.png",
+  "asset/101.png",
+  "asset/101.png",
+  "asset/101.png",
+  "asset/101.png",
+  "asset/101.png",
+  "asset/101.png",
+];
 
 class _screen32State extends State<screen32> {
   @override
@@ -64,7 +90,6 @@ class _screen32State extends State<screen32> {
                 return Container(
                     height: 80,
                     width: 200,
-                    color: Colors.black,
                     child: Padding(
                       padding: EdgeInsets.only(top: 15, left: 19),
                       child: Row(
@@ -88,15 +113,38 @@ class _screen32State extends State<screen32> {
                                           fontSize: 13,
                                           fontWeight: FontWeight.w500,
                                           color: Colors.white)),
-                                ),SizedBox(height: 4,),
+                                ),
+                                SizedBox(
+                                  height: 4,
+                                ),
                                 Text(i[index],
                                     style: TextStyle(
                                         fontSize: 9,
                                         fontWeight: FontWeight.w500,
-                                        color: Colors.white))
+                                        color: Colors.white)),
+                                SizedBox(
+                                  width: 110,
+                                  height: 15,
+                                  child: Text(j[index],
+                                      style: TextStyle(
+                                          fontSize: 9,
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.white)),
+                                )
                               ],
                             ),
-                          )
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(top: 15, left: 170),
+                            child: Container(
+                              width: 66,
+                              height: 25,
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(5),
+                                  color: Color(0xffef1e1e)),
+                              child: Image.asset(k[index]),
+                            ),
+                          ),
                         ],
                       ),
                     ));
@@ -106,7 +154,8 @@ class _screen32State extends State<screen32> {
                   height: 10,
                 );
               },
-            )),
+            )
+            ),
           )
         ],
       ),

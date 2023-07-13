@@ -88,7 +88,7 @@ class _screen28State extends State<screen28> {
                             fontFamily: "lal"),
                       ),
                     ),),
-                    Tab(child:Container(height: 30,width: 50,
+                    Tab(child:FittedBox(
                         child: Text(
                           'Videos',
                           style: TextStyle(
@@ -98,7 +98,7 @@ class _screen28State extends State<screen28> {
                               fontFamily: "lal"),
                         )
                     ),),
-                    Tab(child:Container(height: 30,width: 50,
+                    Tab(child:FittedBox(
                         child: Text(
                           'Users',
                           style: TextStyle(
@@ -108,7 +108,7 @@ class _screen28State extends State<screen28> {
                               fontFamily: "lal"),
                         )
                     ),),
-                    Tab(child:Container(height: 30,width: 50,
+                    Tab(child:FittedBox(
                         child: Text(
                           'Sounds',
                           style: TextStyle(
@@ -117,7 +117,7 @@ class _screen28State extends State<screen28> {
                               fontWeight: FontWeight.w500,
                               fontFamily: "lal"),
                         )
-                    ),),   Tab(child:Container(height: 30,width: 50,
+                    ),),   Tab(child:FittedBox(
                         child: Text(
                           'Places',
                           style: TextStyle(
@@ -127,7 +127,7 @@ class _screen28State extends State<screen28> {
                               fontFamily: "lal"),
                         )
                     ),),
-                    Tab(child:Container(height: 30,width: 50,
+                    Tab(child:FittedBox(
                         child: Text(
                           'Hashtages',
                           style: TextStyle(
